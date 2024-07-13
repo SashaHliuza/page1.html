@@ -1,0 +1,60 @@
+body {
+    font-family: cursive;
+    background-color: rgb(208, 226, 255);
+    margin:0;
+    padding: 0;
+    }
+header{
+    background-image: radial-gradient(white, rgb(255, 255, 255),hsl(218, 73%, 81%));
+    padding: 40px;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: hsl(218, 73%, 81%);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a, .back{
+   text-decoration: none;
+   color:darkblue;
+   background-color:rgb(109, 109, 255) ;
+   padding: 5px 10px;
+   font-size: 20px;
+   border: 2px solid darkblue;
+   border-radius: 10px;
+   transition: 0.3s ;
+}
+nav a:hover, .back:hover{
+    background-color: rgb(196, 196, 255);
+}
+
+h2{
+   color: hsl(218, 79%, 70%);
+}
+p:hover{
+    box-shadow:0px 5px 5px 5px rgb(78, 78, 223); ;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img1{
+    height: 250px;
+}
+.gallery img {
+    width: 290px;
+    height: 200px;
+    margin: 5px;
+}
+.gallery{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
